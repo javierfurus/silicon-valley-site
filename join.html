@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/join.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./media/favicon.png"/>
+    <title>PiedPiper - The future is pipin' now</title>
+  </head>
+  <body>
+    <header>
+      <img src="./media/piedpiper.png" alt="" />
+      <div class="menu-items">
+        <a href="./index.html">
+          <p>HOME</p>
+        </a>
+        <a href="./about.html">
+          <p>ABOUT</p>
+        </a>
+        <a href="./join.html">
+          <p>JOIN US</p>
+        </a>
+      </div>
+    </header>
+    <div class="grid-container" id="about_container">
+      <div class="intro-container">
+        <h1>
+          Want to join the revolution?
+        </h1>
+        <article>
+          Fill out this form and we will contact you!
+          <p>
+            We are in need of people who are determined, smart and enthusiastic.
+            Coding skills are, of course, a must. But don't be intimidated. We are a very nice bunch! We are constantly joking about our mere morality, play jokes on each other's expense. If this sounds like you - We need You!
+          </p>
+          <p>But be better than Dinesh. He sucks. - Gilfoyle</p>
+          <div id="hidden">
+            <p>
+              Dinesh is actually the best. I am totally not Dinesh. Trust me. I mean the
+              praise. - Gilfoyle
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="bookmarks" id="mobile-bookmarks">
+        <div class="bookmarks-header">
+          <p>Okay, what is Silicon Valley?</p>
+        </div>
+        <div class="bookmarks-list">
+          <p>
+            Silicon Valley is an American comedy television series created by
+            Mike Judge, John Altschuler and Dave Krinsky. It premiered on HBO on
+            April 6, 2014, running for a total of six seasons of 53 episodes.
+            The series finale aired on December 8, 2019. The series, a parody of
+            Silicon Valley culture, focuses on Richard Hendricks (Thomas
+            Middleditch), a programmer who founds a startup company called Pied
+            Piper, and chronicles his struggles trying to maintain his company
+            while facing competition from larger entities.Co-stars of the series
+            include T.J. Miller, Josh Brener, Martin Starr, Kumail Nanjiani,
+            Zach Woods, Amanda Crew, and Matt Ross. Silicon Valley has received
+            critical acclaim since its airing, with praise for its writing and
+            humor. The show has been nominated for numerous accolades, including
+            five consecutive Primetime Emmy Award nominations for Outstanding
+            Comedy Series.<a
+              href="https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+              >Source</a
+            >
+          </p>
+          <iframe id="introvideo" width="100%" height="315" src="https://www.youtube.com/embed/Ub7k12DBkdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="short-container">
+        <div class="short-texts-header">
+          <p>Application form</p>
+        </div>
+        <div class="form-container">
+          <form method="GET">
+            <label for="firstname">First name (no special characters)</label
+            ><input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="Dinesh"
+              required
+              pattern="[A-Za-z0-9]+"
+            />
+            <label for="lastname">Last name (no special characters)</label
+            ><input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Sucks"
+              required
+              pattern="[A-Za-z0-9]+"
+            />
+            <label for="email">E-mail</label
+            ><input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="gilfoyleis@the.best"
+              required
+            />
+            <label for="birth">Date of birth</label>
+            <input type="datetime-local" name="birth" id="birth" required />
+            <fieldset>
+              <legend>Gender</legend>
+              <ul>
+                <li>
+                  <input type="radio" name="gender" id="male" required /><label
+                    for="male"
+                    >Male</label
+                  >
+                </li>
+                <li>
+                  <input
+                    type="radio"
+                    name="gender"
+                    id="female"
+                    required
+                  /><label for="female">Female</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>What technologies are you familiar with?</legend>
+              <ul>
+                <li>
+                  <input type="checkbox" name="tech" id="css" /><label for="css"
+                    >CSS</label
+                  >
+                </li>
+                <li>
+                  <input type="checkbox" name="tech" id="html" /><label
+                    for="html"
+                    >HTML</label
+                  >
+                </li>
+                <li>
+                  <input type="checkbox" name="tech" id="node" /><label
+                    for="node"
+                    >Node.js</label
+                  >
+                </li>
+                <li>
+                  <input type="checkbox" name="tech" id="express" /><label
+                    for="express"
+                    >Express.js</label
+                  >
+                </li>
+                <li>
+                  <input type="checkbox" name="tech" id="angular" /><label
+                    for="angular"
+                    >AngularJS</label
+                  >
+                </li>
+                <li>
+                  <input type="checkbox" name="tech" id="java" /><label
+                    for="java"
+                    >Java</label
+                  >
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Dinesh or Gilfoyle?</legend>
+              <ul>
+                <li>
+                  <input
+                    type="radio"
+                    name="gilfoyle"
+                    id="gilfoyle"
+                    required
+                  /><label for="gilfoyle">Gilfoyle</label>
+                </li>
+                <li>
+                  <input
+                    type="radio"
+                    name="gilfoyle"
+                    id="dinesh"
+                    disabled
+                  /><label for="dinesh">Dinesh</label>
+                </li>
+                <input
+                type="radio"
+                name="gilfoyle"
+                id="none"
+              /><label for="none">None</label>
+            </li>
+              </ul>
+            </fieldset>
+            <label for="russfest">How much do you love RussFest?</label>
+            <input
+              type="range"
+              name="russfest"
+              min="99"
+              max="100"
+              value="99"
+              class="slider"
+              id="russfestrange"
+            />
+            <label for="russfest" id="russexcuse"
+              >(No, it is not broken. 100% RussFest all the way, baby!!! - Russ
+              Hanneman)</label
+            >
+            <label for="cv">Curicculum Vitae</label>
+            <input type="file" name="cv" id="cv" />
+            <label for="extrainfo">What else would you like us to know?</label>
+            <textarea
+              name="extrainfo"
+              id="extrainfo"
+              cols="10"
+              rows="5"
+              maxlength="450"
+            ></textarea>
+            <div class="button-holder">
+              <button type="reset">Reset</button>
+              <button
+                type="submit"
+                onclick="alert('If you see this message than the form is not working yet. Dinesh did it so this is expected. Expected date of the fix: DATE:FORMAT(DAY/MONTH/YEAR). If no date is visible it is because Dinesh did that implementation too.')"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="bookmarks" id="desktop-bookmarks">
+        <div class="bookmarks-header">
+          <p>Okay, what is Silicon Valley?</p>
+        </div>
+        <div class="bookmarks-list">
+          <p>
+            Silicon Valley is an American comedy television series created by
+            Mike Judge, John Altschuler and Dave Krinsky. It premiered on HBO on
+            April 6, 2014, running for a total of six seasons of 53 episodes.
+            The series finale aired on December 8, 2019. The series, a parody of
+            Silicon Valley culture, focuses on Richard Hendricks (Thomas
+            Middleditch), a programmer who founds a startup company called Pied
+            Piper, and chronicles his struggles trying to maintain his company
+            while facing competition from larger entities.Co-stars of the series
+            include T.J. Miller, Josh Brener, Martin Starr, Kumail Nanjiani,
+            Zach Woods, Amanda Crew, and Matt Ross. Silicon Valley has received
+            critical acclaim since its airing, with praise for its writing and
+            humor. The show has been nominated for numerous accolades, including
+            five consecutive Primetime Emmy Award nominations for Outstanding
+            Comedy Series.<a
+              href="https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+              ><p>Source</p></a
+            >
+          </p>
+          <iframe id="introvideo" width="100%" height="315" src="https://www.youtube.com/embed/Ub7k12DBkdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <footer>2020 HBO - Made by Javier Furus in VSCode</footer>
+  </body>
+</html>
